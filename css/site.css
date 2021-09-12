@@ -93,10 +93,14 @@ div .card {
   background-color: #2ec0da61;
   padding: 2%;
   border: 3px;
+  height: 360px;
 }
 div .card img {
   background-color: #8ccde69c;
   border-radius: 10px;
+  min-width: 100%;
+  min-height: 220px;
+  max-height: 220px;
 }
 div .card .card-body {
   display: flex;
@@ -104,17 +108,16 @@ div .card .card-body {
 }
 div .card .card-body h5 {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5%;
   margin-right: 5%;
 }
-div .card .card-body > a {
-  font-size: 2rem;
+div .card .card-body  a {
+  font-size: 1.5rem;
   color: #7da5ff;
   padding: 2% 4% 2% 4%;
   border-radius: 5px;
   transition: 0.5s;
-  height: 100%;
 }
 div .card .card-body a:hover {
   color: #ff4d5b;
